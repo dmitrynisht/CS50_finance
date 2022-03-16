@@ -4,7 +4,7 @@ import urllib.parse
 
 from flask import redirect, render_template, session
 from functools import wraps
-from datetime import datetime as dt
+# from datetime import datetime as dt
 
 
 def apology(message, code=400):
