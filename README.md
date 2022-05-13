@@ -1,5 +1,5 @@
 # finance
-## This was the last task in Harvard_CS50 before the final project.
+## This was the last task in [Harvard_CS50](https://cs50.harvard.edu/x/2022/) before the final project.
 'finance' is a Flask web application which simulates managing portfolios of stocks by quering [IEX](https://iextrading.com/developer/)-api for stocks' prices.
 ### Usage
 This app allows users to register for an account (login and logout have already worked). When logged in users may see their current portfolio. It is an HTML table with every row summarizing number of shares of separate holding along with its current price and total cost of shares beeing hold. New users will see empty table. Logged in users can quote stocks (i.e. look up a stocks' current price), 'buy' and 'sell' stocks (quoted since when registered each user provided Total 10000 points which are not real money and stocks beeing bought or sold are virtual). Any way quoted prices remain actual. Logged in users can also see transactions history (HTML table with detailed information of every 'buy' and every 'sell').
