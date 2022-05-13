@@ -18,7 +18,6 @@ This page allows a user to 'sell' available shares of a stock (available: those 
 #### history.html
 This page represents history table. This HTML table summarizes all of a user's transactions from the first to the last one. Every row holds data for single transaction in the columns: 'Symbol', 'Shares', 'Price', 'Transacted'. Positive number of shares means they were 'bought', it is a 'purchase'-type of transaction. Negative number of shares means they were 'sold', it is a 'sale'-type of transaction. 'Price' field holds 'sale' or 'purchase' price depending on type of transaction. 'Transacted' field holds the date and time at which the transaction occured.
 #### What Else Could Be Done
-
 IEX-api allows to make price requests for several stocks simultaneously. Such feature could be implemented for Quote, Buy and Sell pages. Nevertheless such update would expect considerable amount of work to provide for '/sell' and for '/buy' routes to support single-symbol and multi-symbol requests. Right now everywhere through this app only single-symbol requests are implemented.
 
 I also had an idea of implementing list of all stocks represented on the market and some kind of surfing through this list. You could see 'disabled' buttons on the 'Quote' page and on the top screen menu. But I didn't find lightweight solution till now.
